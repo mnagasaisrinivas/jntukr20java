@@ -16,11 +16,18 @@ class Quad{
         System.out.println("Enter c value :");
         c = obj.nextInt();
 
-        double result = (-b + Math.sqrt((Math.pow(b, 2)) - (4*(a*c))) / (2*a));
+        /*double result = (-b + Math.sqrt((Math.pow(b, 2)) - (4*(a*c))) / (2*a));
 
         System.out.println(result);
 
+        */
 
+        if (a==0){
+
+            System.out.println("For the given values there is no solution");
+
+        }
+        
 
 
 
