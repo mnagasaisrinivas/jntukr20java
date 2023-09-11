@@ -16,7 +16,7 @@ class bubble{
 
         }
 
-        bubble.mergeSort(arr);
+        bubble.bubbleSort(arr);
 
 
         System.out.println("Sorted Array");
@@ -29,7 +29,7 @@ class bubble{
     }
 
 
-    static void mergeSort(int array[]) {
+    static void bubbleSort(int array[]) {
 
         int size = array.length;
     
