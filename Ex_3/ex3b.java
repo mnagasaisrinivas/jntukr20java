@@ -1,12 +1,12 @@
 package Ex_3;
 
-class ex3b {
+class main {
 
     String name ;
     String branch ;
     int id ;
 
-    ex3b() {
+    main() {
 
         System.out.println("Constructor is called :");
         name = "Naga";
@@ -20,12 +20,12 @@ class ex3b {
     
 }
 
-class main{
+class ex3b{
 
 
     public static void main(String[] ags) {
 
-        ex3b s = new ex3b();
+        main s = new main();
 
         System.out.println(s.name);
         System.out.println(s.branch);
