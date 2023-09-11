@@ -4,15 +4,15 @@ class main {
 
     int height, width, length;
 
-    double vol() {
+    public double vol() {
         return 0;
     }
 
-    double vol(int l) {
+    public double vol(int l) {
         return l*l*l;
     }
 
-    double vol(int l, int h, int w) {
+    public double vol(int l, int h, int w) {
         return l*h*w;
     }
     
