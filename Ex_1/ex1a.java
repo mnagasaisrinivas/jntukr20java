@@ -1,6 +1,3 @@
-
-
-
 class Primative{
 
     public static void main(String[] args) {

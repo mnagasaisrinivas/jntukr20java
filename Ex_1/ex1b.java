@@ -1,10 +1,15 @@
 import java.util.*;
+import java.lang.*;
+import java.io.*;
+import java.lang.Math;
 
 class Quad{
 
     public static void main(String[] args){
 
         int a,b,c;
+        double D,r1,r2;
+
         Scanner obj = new Scanner(System.in);
 
         System.out.println("Enter a value :");
@@ -16,17 +21,27 @@ class Quad{
         System.out.println("Enter c value :");
         c = obj.nextInt();
 
-        /*double result = (-b + Math.sqrt((Math.pow(b, 2)) - (4*(a*c))) / (2*a));
+        D = b * b - 4 * a * c;
 
-        System.out.println(result);
-
-        */
-
-        if (a==0){
-
-            System.out.println("For the given values there is no solution");
-
+        if(D > 0) {
+            System.out.println("Roots are real and unequal");
+            r1 = ( - b + Math.sqrt(D))/(2*a);
+            r2 = (-b - Math.sqrt(D))/(2*a);
+            System.out.println("First root is:"+r1);
+            System.out.println("Second root is:"+r2);
         }
+
+        else if(D == 0) {
+            System.out.println("Roots are real and equal");
+            r1 = (-b+Math.sqrt(D))/(2*a);
+            System.out.println("Root:"+r1);
+        }
+
+        else {
+            System.out.println("Roots are imaginary");
+        }
+
+        
         
 
 
