@@ -1,5 +1,3 @@
-package Ex_5;
-
 abstract class Shapes {
 
     int len ,width;

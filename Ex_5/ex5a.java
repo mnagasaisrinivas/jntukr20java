@@ -1,5 +1,3 @@
-package Ex_5;
-
 class Person {
 
     String name;

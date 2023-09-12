@@ -1,5 +1,3 @@
-package Ex_3;
-
 class Student{
 
     int id;

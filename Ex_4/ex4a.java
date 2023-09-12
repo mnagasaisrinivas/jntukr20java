@@ -1,5 +1,3 @@
-package Ex_4;
-
 class construct {
 
     String name;

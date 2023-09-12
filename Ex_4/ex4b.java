@@ -1,5 +1,3 @@
-package Ex_4;
-
 class main {
 
     int height, width, length;
