@@ -4,10 +4,10 @@ class Person {
     String gender;
     int age;
 
-    void display(String n, String g, int a) {
-        System.out.println(n);
-        System.out.println(g);
-        System.out.println(a);
+    void display() {
+        System.out.println(name);
+        System.out.println(gender);
+        System.out.println(age);
     }
     
 }
@@ -17,10 +17,10 @@ class Student extends Person {
     String branch;
     int id;
 
-    @overide
-    void display(String b, int i) {
-        System.out.println(b);
-        System.out.println(i);
+    
+    @Override void display() {
+        System.out.println(branch);
+        System.out.println(id);
     }
 
 
@@ -28,13 +28,16 @@ class Student extends Person {
 
 class ex6a {
 
-    Student s = new Student();
+	public static void main(String[] ags) {
+		Student s = new Student();
 
-    s.name = "Naga";
-    s.gender = "Male";
-    s.age = 18;
-    s.branch = "CSM";
-    s.id = 64 ;
+		s.name = "Naga";
+		s.gender = "Male";
+		s.age = 18;
+		s.branch = "CSM";
+		s.id = 64 ;
 
-    s.display(s.branch, s.id);
+		s.display();
+		
+	}	
 }
