@@ -1,6 +1,4 @@
 import java.util.*;
-import java.lang.*;
-import java.io.*;
 import java.lang.Math;
 
 class Quad{
@@ -10,16 +8,16 @@ class Quad{
         int a,b,c;
         double D,r1,r2;
 
-        Scanner obj = new Scanner(System.in);
+        try (Scanner obj = new Scanner(System.in)) {
+            System.out.println("Enter a value :");
+            a = obj.nextInt();
 
-        System.out.println("Enter a value :");
-        a = obj.nextInt();
+            System.out.println("Enter b value :");
+            b = obj.nextInt();
 
-        System.out.println("Enter b value :");
-        b = obj.nextInt();
-
-        System.out.println("Enter c value :");
-        c = obj.nextInt();
+            System.out.println("Enter c value :");
+            c = obj.nextInt();
+        }
 
         D = b * b - 4 * a * c;
 

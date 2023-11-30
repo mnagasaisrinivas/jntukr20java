@@ -26,7 +26,7 @@ class construct {
     
 }
 
-class main{
+class ex4a{
 
     public static void main(String[] ags) {
 

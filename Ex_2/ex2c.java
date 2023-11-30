@@ -8,19 +8,18 @@ class mergeSort {
         int arr[] = new int[10];
        
 
-        Scanner obj = new Scanner(System.in);
-        mergeSort ob = new mergeSort();
+        try (Scanner obj = new Scanner(System.in)) {
+            mergeSort ob = new mergeSort();
 
-        for (int i = 0; i < 10; i++) {
+            for (int i = 0; i < 10; i++) {
 
-            System.out.print("Enter " + (i+1) + " Element into the array : ");
-            arr[i] = obj.nextInt();
+                System.out.print("Enter " + (i+1) + " Element into the array : ");
+                arr[i] = obj.nextInt();
 
+            }
+
+            ob.mergeSor(arr, 0, arr.length - 1);
         }
-
-        ob.mergeSort(arr, 0, arr.length - 1);
-
-
         System.out.println("Sorted Array");
 
         for (int i =0 ; i < 10 ; i++){
@@ -80,14 +79,14 @@ class mergeSort {
     }
 
     // Divide the array into two subarrays, sort them and merge them
-    void mergeSort(int arr[], int l, int r) {
+    void mergeSor(int arr[], int l, int r) {
         if (l < r) {
 
         // m is the point where the array is divided into two subarrays
         int m = (l + r) / 2;
 
-        mergeSort(arr, l, m);
-        mergeSort(arr, m + 1, r);
+        mergeSor(arr, l, m);
+        mergeSor(arr, m + 1, r);
 
         // Merge the sorted subarrays
         merge(arr, l, m, r);

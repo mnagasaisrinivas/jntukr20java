@@ -1,0 +1,112 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "ThreadPoolExample",
+            "request": "launch",
+            "mainClass": "ThreadPoolExample",
+            "projectName": "jntukr20java_c171644d"
+        },
+        {
+            "type": "java",
+            "name": "ThreadPoolExample",
+            "request": "launch",
+            "mainClass": "Extras.ThreadPoolExample",
+            "projectName": "jntukr20java_c171644d"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Binary",
+            "request": "launch",
+            "mainClass": "Binary",
+            "projectName": "jntukr20java_c171644d"
+        },
+        {
+            "type": "java",
+            "name": "Buffer",
+            "request": "launch",
+            "mainClass": "Buffer",
+            "projectName": "jntukr20java_c171644d"
+        },
+        {
+            "type": "java",
+            "name": "buffer",
+            "request": "launch",
+            "mainClass": "Extras.buffer",
+            "projectName": "jntukr20java_c171644d"
+        },
+        {
+            "type": "java",
+            "name": "Primative",
+            "request": "launch",
+            "mainClass": "Primative",
+            "projectName": "jntukr20java_c171644d"
+        },
+        {
+            "type": "java",
+            "name": "Quad",
+            "request": "launch",
+            "mainClass": "Quad",
+            "projectName": "jntukr20java_c171644d"
+        },
+        {
+            "type": "java",
+            "name": "Speed",
+            "request": "launch",
+            "mainClass": "Speed",
+            "projectName": "jntukr20java_c171644d"
+        },
+        {
+            "type": "java",
+            "name": "bubble",
+            "request": "launch",
+            "mainClass": "bubble",
+            "projectName": "jntukr20java_c171644d"
+        },
+        {
+            "type": "java",
+            "name": "ex4a",
+            "request": "launch",
+            "mainClass": "ex4a",
+            "projectName": "jntukr20java_c171644d"
+        },
+        {
+            "type": "java",
+            "name": "ex4b",
+            "request": "launch",
+            "mainClass": "ex4b",
+            "projectName": "jntukr20java_c171644d"
+        },
+        {
+            "type": "java",
+            "name": "ex5c",
+            "request": "launch",
+            "mainClass": "ex5c",
+            "projectName": "jntukr20java_c171644d"
+        },
+        {
+            "type": "java",
+            "name": "ex6a",
+            "request": "launch",
+            "mainClass": "ex6a",
+            "projectName": "jntukr20java_c171644d"
+        },
+        {
+            "type": "java",
+            "name": "mergeSort",
+            "request": "launch",
+            "mainClass": "mergeSort",
+            "projectName": "jntukr20java_c171644d"
+        }
+    ]
+}

@@ -31,48 +31,49 @@ class Binary{
         int arr[] = new int[10];
        
 
-        Scanner obj = new Scanner(System.in);
-        Binary ob = new Binary();
+        try (Scanner obj = new Scanner(System.in)) {
+          Binary ob = new Binary();
 
-        for (int i = 0; i < 10; i++) {
+          for (int i = 0; i < 10; i++) {
 
-            System.out.print("Enter " + (i+1) + " Element into the array : ");
-            arr[i] = obj.nextInt();
+              System.out.print("Enter " + (i+1) + " Element into the array : ");
+              arr[i] = obj.nextInt();
 
-        }
+          }
 
-        Arrays.sort(arr);
+          Arrays.sort(arr);
 
-        System.out.println("Enter Search Element");
-        int search = obj.nextInt();
-
-
-        System.out.println("Sorted Array");
-
-        for (int i =0 ; i < 10 ; i++){
-            System.out.print(arr[i] + " ");
-            
-        }
-
-        System.out.println();
+          System.out.println("Enter Search Element");
+          int search = obj.nextInt();
 
 
-       
-        
+          System.out.println("Sorted Array");
 
-        int index = ob.binarySearch(arr, search, 0, 9);
+          for (int i =0 ; i < 10 ; i++){
+              System.out.print(arr[i] + " ");
+              
+          }
 
-        if (index == -1) {
-
-            System.out.println("Element not found in array");
-
-        }
-        else{
+          System.out.println();
 
 
-        
-        System.out.println("Element found at array index " + index);
+    
+          
 
+          int index = ob.binarySearch(arr, search, 0, 9);
+
+          if (index == -1) {
+
+              System.out.println("Element not found in array");
+
+          }
+          else{
+
+
+          
+          System.out.println("Element found at array index " + index);
+
+          }
         }
     }
 

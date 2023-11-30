@@ -7,13 +7,13 @@ class bubble{
         int arr[] = new int[10];
        
 
-        Scanner obj = new Scanner(System.in);
+        try (Scanner obj = new Scanner(System.in)) {
+            for (int i = 0; i < 10; i++) {
 
-        for (int i = 0; i < 10; i++) {
+                System.out.print("Enter " + (i+1) + " Element into the array : ");
+                arr[i] = obj.nextInt();
 
-            System.out.print("Enter " + (i+1) + " Element into the array : ");
-            arr[i] = obj.nextInt();
-
+            }
         }
 
         bubble.bubbleSort(arr);
